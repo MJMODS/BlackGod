@@ -77,7 +77,7 @@ async function WhiteDevil () {
     conn.version = [3,2147,14];
     const Session = new StringSession();
 
-    conn.browserDescription = ["WhiteDevil-Bot", "Safari", '1.0.0']
+    conn.browserDescription = ["BlackGod-Bot", "Safari", '1.0.0']
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
